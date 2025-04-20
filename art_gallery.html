@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Maia's Art Gallery</title>
+    <style>
+        body {
+            align-items: center;
+            justify-content: center;
+            padding: 0px 35px;
+            min-height: 100vh;
+            background: linear-gradient(to left top, blanchedalmond, #559615);
+        }
+        .wrapper{
+            width: 100%;
+        }
+        .wrapper i:active{
+	    transform: translateY(-50%)
+	    scale(0.85);
+	}
+	.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	    gap: 16px;
+        }
+        .card, .img{
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	
+	.card{
+	    height: 350px;
+	    background-color: plum;
+	    padding: 15px;
+	    flex-direction: column;
+	    border-radius: 30px;
+	}
+	
+	#July_Journal_base {
+		width: 210px;
+		height: 297px;
+		background-size: 100% 100%;
+		background-image: url("img/AG_P_JJB.png");
+	}
+	
+	#July_Journal_base:hover {
+		background-image: url("img/AG_P_JJB_Hover.png");
+	}
+	#Happiness_Log {
+		width: 210px;
+		height: 297px;
+		background-size: 100% 100%;
+		background-image: url("img/AG_P_HLBlank.png");
+	}
+	
+	#Happiness_Log:hover {
+		background-image: url("img/AG_P_HL.png");
+	}
+	
+    </style>
+</head>
+
+<body>
+    <h1>The Beautiful Art Gallery</h1>
+    <h2>PixilArt</h2>
+    <div class="wrapper">
+	    <ul class="container">
+	   	 <li class="card">
+	    		<h3>Gummy bears</h3>
+	    		<img src="img/AG_P_Gummy.png"width="210" height="297"></img></li>
+	   	 <li class="card">
+	    		<h3>Egg roll</h3>
+	    		<img src="img/AG_P_Egg.gif"width="130" height="130"></img></li>
+	    	<li class="card">
+	    		<h3>Character</h3>
+	    		<img src="img/AG_P_Character.png"width="100" height="100"></img></li>
+	   	<li class="card">
+	    		<h3>Walking</h3>
+	    		<img src="img/AG_P_Walking.gif"width="50" height="60"></img></li>
+	    	<li class="card">
+	    		<h3>Quote</h3>
+	    		<img src="img/AG_P_Quote.png"width="100" height="100"></img></li>
+	    	<li class="card">
+	    		<h3>Happiness Log (hover over image for filled in version)</h3>
+	    		<img id="Happiness_Log"></img></li>
+	    	<li class="card">
+	    		<h3>Froggy pond</h3>
+	    		<img src="img/AG_P_Froggy_Pond.png"width="144" height="144"></img></li>
+	    	<li class="card">
+	    		<h3>Dragon</h3>
+	    		<img src="img/AG_P_Dragon.png"width="144" height="144"></img></li>
+	    	<li class="card">
+	    		<h3>Plants</h3>
+	    		<img src="img/AG_P_Plants.png"width="288" height="144"></img></li>
+	    	<li class="card">
+	    		<h3>Saloon</h3>
+	    		<img src="img/AG_P_Saloon.png"width="144" height="144"></img></li>
+	    	<li class="card">
+	    		<h3>Cow</h3>
+	    		<img src="img/AG_P_Cow.png"width="128" height="128"></img></li>
+	    	<li class="card">
+	    		<h3>Leaf OC</h3>
+	    		<img src="img/AG_P_Leaf_OC.png"width="64" height="64"></img></li>
+	    	<li class="card">
+	    		<h3>July Journal base (hover over image for filled in version)</h3>
+	    		<img id="July_Journal_base"></img></li>
+	    	<li class="card">
+	    		<h3>Bouncy ball</h3>
+	    		<img src="img/AG_P_Ball.gif"width="32" height="32"></img></li>
+	    	<li class="card">
+	    		<h3>Eggs on toast</h3>
+	    		<img src="img/AG_P_EOT.png"width="64" height="64"></img></li>
+	    	<li class="card">
+	    		<h3>Fruitbowl</h3>
+	    		<img src="img/AG_P_Fruitbowl.png"width="144" height="100"></img></li>
+	    	<li class="card">
+	    		<h3>Juicebox</h3>
+	    		<img src="img/AG_P_Juicebox.png"width="100" height="100"></img></li>
+	    	<li class="card">
+	    		<h3>Rainbow</h3>
+	    		<img src="img/AG_P_Rainbow.png"width="100" height="100"></img></li>
+	    	<li class="card">
+	    		<h3>Stars(the song)</h3>
+	    		<img src="img/AG_P_Stars_Song.png"width="100" height="100"></img></li>
+	    	<li class="card">
+	    		<h3>Beanstalk</h3>
+	    		<img src="img/AG_P_Beanstalk.png"width="128" height="128"></img></li>
+	    	<li class="card">
+	    		<h3>Stars</h3>
+	    		<img src="img/AG_P_Stars.png"width="50" height="50"></img></li>
+	    	<li class="card">
+	    		<h3>Read more!</h3>
+	    		<img src="img/AG_P_Books.png"width="70" height="70"></img></li>
+	    	<li class="card">
+	    		<h3>Radio</h3>
+	    		<img src="img/AG_P_Radio.png"width="100" height="100"></img></li>
+	    </ul>
+    </div>
+    <h2>Cross stitch</h2>
+    <div class="wrapper">
+	    <ul class="container">
+	    	<li class="card">
+	    		<h3>Cat (Work In Progress 2)</h3>
+	    		<img src="img/CS_Cat_WIP2.jpg"width="200" height="260"></img></li>
+	    	<li class="card">
+	    		<h3>Cat (Work In Progress)</h3>
+	    		<img src="img/CS_Cat_WIP.jpg"width="200" height="260"></img>
+	    	<li class="card">
+	    		<h3>Robin</h3>
+	    		<img src="img/CS_Robin.jpg"width="100" height="100"></img></li>
+	    </ul>
+    </div>
+    <h2>Physical artwork</h2>
+    <div class="wrapper">
+	    <ul class="container">
+	       <li class="card">
+	    		<h3>3D Bug</h3>
+	    		<img src="img/PA_Bug.jpg"width="100" height="130"></img></li>
+	    	<li class="card">
+	    		<h3>Love you to the moon and back heart</h3>
+	    		<img src="img/PA_Heart.jpg"width="100" height="100"></img></li>
+	    	<li class="card">
+	    		<h3>Oli</h3>
+	    		<img src="img/PA_Oli.jpg"width="100" height="100"></img></li>
+	    	<li class="card">
+	    		<h3>Picnic</h3>
+	    		<img src="img/PA_Picnic.jpg"width="100" height="130"></img></li>
+	    	<li class="card">
+	    		<h3>November cover page</h3>
+	    		<img src="img/Nov.jpg"width="120" height="100"></img></li>
+	    	<li class="card">
+	    		<h3>Yellow flowers</h3>
+	    		<img src="img/PA_Yel_Flow.jpg"width="120" height="100"></img></li>
+	    	<li class="card">
+	    		<h3>Doodles</h3>
+	    		<img src="img/PA_Doodles.jpg"width="100" height="170"></img></li>
+	    	<li class="card">
+	    		<h3>Pumpkin</h3>
+	    		<img src="img/PA_Pumpkin.jpg"width="100" height="100"></img></li>
+	    	<li class="card">
+	    		<h3>October cover page</h3>
+	    		<img src="img/PA_October.jpg"width="100" height="150"></img></li>
+	    	<li class="card">
+	    		<h3>September cover page</h3>
+	    		<img src="img/PA_September.jpg"width="150" height="100"></img></li>
+	    	<li class="card">
+	    		<h3>Watercolour flowers</h3>
+	    		<img src="img/PA_Flowers.jpg"width="100" height="150"></img></li>
+	    	<li class="card">
+	    		<h3>You got this!</h3>
+	    		<img src="img/PA_YGT.jpg"width="100" height="150"></img></li>
+	    	<li class="card">
+	    		<h3>Cool treats</h3>
+	    		<img src="img/PA_CT.jpg"width="100" height="150"></img></li>
+	    	<li class="card">
+	    		<h3>Leafy wreath</h3>
+	    		<img src="img/PA_LW.jpg"width="100" height="130"></img></li>
+	    	<li class="card">
+	    		<h3>Cactus</h3>
+	    		<img src="img/PA_Cactus.jpg"width="100" height="130"></img></li>
+	    	<li class="card">
+	    		<h3>Leaf OC face</h3>
+	    		<img src="img/PA_Leaf_Face.jpg"width="100" height="150"></img></li>
+	    </ul>
+    </div>
+</body>
+
+</html>

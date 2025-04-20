@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <title>Maia's Website :)</title>
+        <style>
+            body {
+                background-color: #ffa366;
+            }
+
+            #header-table > tbody > tr:first-of-type > td:first-of-type img {
+                width: 100%;
+            }
+
+            #tabs-table div {
+                min-width: 80px;
+                height: 49px;
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+
+            #tabs-table #tab-1 { background-image: url('img/unclicked\ 1.png'); }
+            #tabs-table #tab-2 { background-image: url('img/unclicked\ 2.png'); }
+            #tabs-table #tab-3 { background-image: url('img/unclicked\ 3.png'); }
+            #tabs-table #tab-4 { background-image: url('img/unclicked\ 4.png'); }
+            #tabs-table #tab-5 { background-image: url('img/unclicked\ 5.png'); }
+            #tabs-table #tab-6 { background-image: url('img/unclicked\ 6.png'); }
+
+            #tabs-table #tab-1:hover { background-image: url('img/hovered\ 1.png'); }
+            #tabs-table #tab-2:hover { background-image: url('img/hovered\ 2.png'); }
+            #tabs-table #tab-3:hover { background-image: url('img/hovered\ 3.png'); }
+            #tabs-table #tab-4:hover { background-image: url('img/hovered\ 4.png'); }
+            #tabs-table #tab-5:hover { background-image: url('img/hovered\ 5.png'); }
+            #tabs-table #tab-6:hover { background-image: url('img/hovered\ 6.png'); }
+            
+            #selfie {
+            	width: 256px;
+            }
+            
+            #annoying_button {
+            	border-radius: 12px;
+            	background-color: darkorange;
+            	color: black; 
+            	border: 2px solid darkorange;
+            }
+
+            h1 {
+                color: #820537;
+            }
+
+            p {
+            	background-color: deeppink;
+                color: black;
+            }
+        </style>
+        <script>
+        function loadTime() {
+            document.getElementById("update_time").innerHTML = document.lastModified;
+        }
+    </script>
+    </head>
+    <body onload="loadTime();">
+        <table id="header-table">
+            <tr>
+                <td><img src="img/Header.png"/></td>
+                <td>
+                    <table id="tabs-table">
+                        <tr><td><a href="./index.html"><div id="tab-1"></div></a></td></tr>
+                        <tr><td><a href="./codingplaceholder.html"><div id="tab-2"></div></a></td></tr>
+                        <tr><td><a href="./art_gallery.html"><div id="tab-3"></div></a></td></tr>
+                        <tr><td><a href="./notion.html"><div id="tab-4"></div></a></td></tr>
+                        <tr><td><a href="./under_construction.html"><div id="tab-5"></div></a></td></tr>
+                        <tr><td><a href="./under_construction.html"><div id="tab-6"></div></a></td></tr>
+                    </table>
+                </td>
+            </tr>
+        <table> 
+        <h1>Website will be released by 20th April 2025! - exciting</h1>
+        <table style="width: 100%">
+        <tr>
+        	<td style="vertical-align:top">
+        		<p>Hi I'm Maia. I made this website to share projects old and new with the idea to update regularly.</p>
+        		<p>Tabs on the top right navigate to this page, coding projects, artwork, my notion template and work in progress tabs. If you would like to see anything else on this website let me know at mkuszykw@outlook.com</p>
+        		<h2>About me!</h2>
+        		<p>I am currently interested in perfecting my coding abilities and thoroughly enjoy creating artworks (in many mediums)</p>
+        	</td>
+		<td style="vertical-align:top"><img id="selfie" src="img/Me.jpg" class="centre" align=”right”></td>
+        </tr> 	
+        </table>
+        <footer>
+        	<hr>
+        	<p>Page last updated: </p>
+        	<div id="update_time"></div>
+        </footer>
+        <button id="annoying_button">Click me!</button>
+        <script src="main.js"></script>
+    </body>
+</html>
